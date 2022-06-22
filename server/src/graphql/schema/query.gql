@@ -1,0 +1,7 @@
+type Query {
+  getValue: String
+  getClient(id: ID): Client
+  getAllClients: [Client]
+  getProject(id: ID): Project
+  getAllProjects: [Project]
+}

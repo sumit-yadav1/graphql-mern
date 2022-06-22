@@ -1,0 +1,7 @@
+type Project {
+  id: ID
+  client: Client
+  name: String
+  description: String
+  status: String
+}
